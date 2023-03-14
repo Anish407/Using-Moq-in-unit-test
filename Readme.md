@@ -8,7 +8,7 @@ mockObject.DefaultValue = DefaultValue.Mock
 
 This will only work on interfaces, abstract or non sealed class (wont work on strings)
 
-Check<a href="https://github.com/Anish407/Using-Moq-in-unit-test/blob/master/Moq.Tests/UnitTest1.cs"> TrackingChangesInAMockedobject() </a>
+Check<a href="https://github.com/Anish407/Using-Moq-in-unit-test/blob/master/Moq.Tests/UnitTest1.cs#L32"> TrackingChangesInAMockedobject() </a>
 </p>
  <p>
 2. To make sure that changes made to this property of the mock object are retained configure
@@ -20,5 +20,5 @@ use this method to setup all properties, this will overwrite the previously setu
 property. The code shown below will ensure that all the properties retain their values when updated
 
      mockValidator.SetupAllProperties();
-Check <a href="https://github.com/Anish407/Using-Moq-in-unit-test/blob/master/Moq.Tests/UnitTest1.cs">TrackingChangesInAMockedobject() </a>
+Check <a href="https://github.com/Anish407/Using-Moq-in-unit-test/blob/master/Moq.Tests/UnitTest1.cs#L32">TrackingChangesInAMockedobject() </a>
 </p>
