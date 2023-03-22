@@ -25,6 +25,10 @@
                 return CreditCardApplicationDecision.ReferredToHuman;
             }
 
+            // to check if the getter was invoked
+            int ageDiscount = _frequentFlyerNumberValidator.AgeDiscount;
+
+            // check if the setter was invoked
             _frequentFlyerNumberValidator.AgeDiscount = application.Age > 20 ? 30 : 50;
 
             if (application.Age <= AutoReferralMaxAge)
